@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Cairo:wght@700&family=Inter:wght@300;400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Outfit&family=Red+Hat+Display:wght@300;400;500&display=swap');
+:root {
+--Dark-cyan: hsl(185, 75%, 39%);
+--Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--Dark-grayish-blue: hsl(227, 10%, 46%);
+
+--Dark-gray: hsl(0, 0%, 59%);
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    Font-size: 18px ;
+    font-family: "Kumbh Sans";
+    background-color: var(--Dark-cyan);
+
+}
+ul {
+    list-style: none;
+}
+.card {
+    text-align: center;
+    margin: 100px 0;
+}
+svg {
+    border-radius:  10px 10px 0 0;
+}
+.card .image img {
+    border-radius: 50%;
+    border: 2px solid #f9f9f9;
+    margin-top: -50px; 
+}
+.card .text {
+    background-color: white;
+    width: 350px;
+    margin: -60px auto 60px;
+    border-radius: 0 0 10px 10px;
+
+}
+.card .text h1 {
+    margin-bottom: 70px;
+    transform: translateY(60px);
+    color:var(--Very-dark-desaturated-blue);
+
+}
+.card .text h1 > span {
+    color:var(--Dark-gray);
+    font-size: 30px;
+    font-weight: normal;
+}
+.card .text p {
+    color:var(--Dark-gray);
+    margin-bottom: 20px;
+}
+.card .text ul   {
+ display:flex;
+ justify-content: space-around;
+
+}
+.text ul li span {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    
+}
+ul li {
+    margin-bottom: 30px;
+    color: var(--Dark-gray);
+}
+ul span {
+    color:var(--Very-dark-desaturated-blue);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.attribution { font-size: 13px; 
+    text-align: center;
+    margin-top: -80px;
+ }
+.attribution a { color: hsl(228, 45%, 44%);
+text-decoration: none; }
